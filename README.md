@@ -1,2 +1,66 @@
 # BringgHW
-bring home work from Stas
+Bringg home work from Stas
+
+# overview
+HW containing two tasks
+1) Selenium task
+2) Java OOP/logic tak
+
+# Prerequisites 
+It's a Maven project.
+In case an older version of IntelliJ is used, Apache Maven plugin should be downloaded
+    and placed under the "c:\\" drive (not higher than 3.4 version).
+    IntelliJ might not recognise it right away, so it needs to be pointed out to, by selecting a correct version and directory
+    under File=>Settings=>maven=>"maven home page" section
+If relatively new version of IntelliJ is used it might take care of the Maven setup by itself.
+    in case it does not, go to the File=>Settings=>maven=>"maven home page" and point it to the relevant apache plugin.
+    if it's not there, download it and then point out , as described above.
+
+In case some of library's imports are colored in RED, reload the Maven.
+
+To use selenium chrome driver, it must be downloaded and placed under "C:\\" drive.
+Selenium driver's version must match the Chrome Browser version used by the host machine.
+You can find <chromedriver.exe> version 96 under "BringgHW\src\main\resources" of the project.
+Please take it and place under your "C:\\" drive.
+In case you use an older version of Chrome browser, either update it to the 96 version or download relevant <devicedriver.exe> and place it as described above.
+
+# Tasks related comments
+*** Selenium task
+There are few improvements to be made in this section.
+    1) Each WebElement Type (text field, button, dropDown, table switch button.. etc) would better have its own class implementation.
+            This class would include all relevant methods
+            It could be instantiated  by different types of selectors and only then used by handler methods
+    3) There are few improvements to selenium related driver usage
+        f.e. multiple browsers support
+        And it could sure be located/implemented in a separate repo and brought in as a Maven artifact.
+        
+
+
+
+*** Java Tak
+in the <Java Question> the C section requires to "mandatory use section B", while there is nothing in its context suggesting on 
+section B usage.
+
+---here is the C section question as it appears in the original DOC:
+C. Write down a method that gets a linked list of all the groups, the name of the largest group
+must be printed for each site, it is mandatory to use section B
+
+It says that method gets "a linked list of all the groups".
+It does not say that it should get "all groups ready to book a site, in terms of capacity".
+So, there was no need to use section B in section C solution.
+If there was, i would just send filtered groups list to the method in section C:)). and it would also work.
+
+And NO, i was not able to solve the B section by myself in terms of logical solution.
+Have found some close solution on the internet and adapted it.
+
+# testNG
+There are for sure many testNG related improvements (i never used it before)
+I just used it to run test flows.
+The better idea would be, for each Test step to be represented by one specific action, not by the entire flow (set of actions). 
+
+
+
+
+
+
+
