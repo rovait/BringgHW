@@ -52,3 +52,6 @@ I’ve found some solution of a similar type on the internet and adapted ot to m
 There are many testNG related improvements for sure (I’ve never used it before).
 I’ve just used it to run test flows currently.
 The better idea would be to represent each step by one specific action and not by the entire flow(set of actions).
+
+P.S. in case any questions regarding solutions(or any others) arise, 
+    please feel free to contact me @052-8802095 (Stas)
