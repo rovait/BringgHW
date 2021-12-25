@@ -22,6 +22,8 @@ To use selenium chrome driver, it must be downloaded and placed under "C:\\" dri
 
 As an INPUT for both selenium and java Tasks first Test (with displayName "Preconditions") is used. 
     Please, update it to check different input cases. (if needed)
+    
+# Test Classes to run Tasks are located under the /src/test/java package 
 
 
 
