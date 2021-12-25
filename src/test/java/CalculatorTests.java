@@ -1,4 +1,5 @@
 import calculator.CalculatorHandler;
+import org.junit.jupiter.api.DisplayName;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -24,12 +25,14 @@ public class CalculatorTests {
     }
 
     @Test(priority=1)
+    @DisplayName("Preconditions")
     public void openBrowser()throws Exception{
         calculatorHandler.openBrowser(CALCULATOR_URL);
         calculatorHandler.clickButtonByText(CONSENT);
     }
 
     @Test(dataProvider = "params", priority=2)
+    @DisplayName("power Two")
     public void powerTwo(int powNum) throws Exception{
         String digitId = getDigitButtonId(powNum);
         calculatorHandler.clickButtonById(EXTENSION_ID);
@@ -52,6 +55,7 @@ public class CalculatorTests {
     }
 
     @Test(priority=3)
+    @DisplayName("close Browser")
     public void closeBrowser(){
         calculatorHandler.printHistory();
         calculatorHandler.closeBrowser();
