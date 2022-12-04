@@ -48,7 +48,7 @@ As an INPUT for both selenium and java Tasks first Test (with displayName "Preco
   If there would be, I would just send filtered groups list to the method in section C :)) and it would also work.
 
 And NO, I was not able to solve the B section by myself, in terms of logical solution.
-I’ve found some solution of a similar type on the internet and adapted ot to my needs.
+I’ve found some solution of a similar type on the internet and adapted it to my needs.
 
 # testNG
 There are many testNG related improvements for sure (I’ve never used it before).
